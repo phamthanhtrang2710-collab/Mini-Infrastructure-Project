@@ -40,11 +40,11 @@ On server 1
 ## Check Nginx Containers
 On server 1
 
-    curl http://192.168.1.123:8080
+    curl http://10.190.139.4:8080
 
 On server 2
 
-    curl http://192.168.1.123:8080
+    curl http://10.190.139.4:8080
 
 Nginx's htlm will appear
 ## Verification
