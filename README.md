@@ -3,11 +3,19 @@
 Hello, welcome to my small project on system infrastructure. In this project, I will set up connections between 03 servers using virtual machines (UTM) on macOS, deploy and run a web server, work with Docker containers, and perform checks and troubleshooting on IP addresses, ports, services, and firewall configurations.
 
 ## Architecture
+### Server Role
 Server 1: Main management server configured with SSh and Docker
 
 Server 2: Web server configured with Nginx
 
 Server 3: Testing server for network diagnostics, SSH connectivity, and troubleshooting
+
+### IP Address
+Server 1: 10.190.139.4
+
+Server 2: 10.190.139.5
+
+Server 3: 10.190.139.6
 
 ## Project Highlights
 •	Built a 3-node Ubuntu server lab using virtualization on macOS
