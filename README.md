@@ -16,6 +16,8 @@ Server 1: 10.190.139.4
 Server 2: 10.190.139.5
 
 Server 3: 10.190.139.6
+### Ports and Services
+Service		|	Port		|	Server
 
 ## Project Highlights
 •	Built a 3-node Ubuntu server lab using virtualization on macOS
