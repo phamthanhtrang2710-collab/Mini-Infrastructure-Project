@@ -67,6 +67,9 @@ Cannot access the web server running on port 8080
 • Confirmed containers is running and accessible
 
     systemctl status nginx
+• Tested access on port 8080
+
+    curl http://10.190.139.5:8080
 
 ## Issue 4. SSH Connection Refused
 Cannot access to remote server via SSH
