@@ -17,10 +17,14 @@ Server 2: 10.190.139.5
 
 Server 3: 10.190.139.6
 ### Ports and Services
-Service		|	Port		|	Server
-
+	Service			|	Port	|	Server
+	----------------|-----------|---------------
+	SSH				|	22		|	All servers
+	HTTP (Nginx)	|	80		|	server 2
+	Docker container|	8080	|	server 1
+	
 ## Project Highlights
-•	Built a 3-node Ubuntu server lab using virtualization on macOS
+•	Built a 3-node Ubuntu server lab using UTM on macOS
 
 •	Configured SSH for remote administration between nodes
 
@@ -28,7 +32,9 @@ Service		|	Port		|	Server
 
 •	Installed and managed Nginx web server
 
-•	Practiced Linux user management, file permissions, service control, firewall configuration, and troubleshooting
+•	Practiced Linux user management, file permissions, service control, and troubleshooting
+
+•	Configured UFW firewall rules
 
 •	Tested connectivity between nodes using ping, curl, SSH, and port inspection tools
 
@@ -52,8 +58,17 @@ View here: [Open Folder](https://github.com/phamthanhtrang2710-collab/Mini-Infra
 View here: [Open Folder](https://github.com/phamthanhtrang2710-collab/Mini-Infrastructure-Project/tree/dbf38b8ff1b0c6de26172417dc387755d5e95e4b/Screenshots/Firewall%20Set%20Up)
 
 ## Skills Gained
-	•	Linux system administration
-	•	Service management (systemctl)
-	•	Networking troubleshooting (ping, curl, ports)
+My project shows skills relevant to
+### IT Support
+
+	•	Troubleshooting connectivity issues
+	•	Using CLI tool (ping, curl, systemctl)
+### System Administration
+	•	Linux user and service management
+	•	Firewall configuration (UFW)
+	•	SSH set up and remote access
 	•	Container deployment with Docker
-	•	Security basics with firewall
+### Networking
+	•	Networking basic troubleshooting (ping, curl, ports)
+	•	IP addressing and connectivity testing
+	•	Port and service verification
